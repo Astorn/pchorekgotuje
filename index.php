@@ -49,7 +49,7 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
   </header>
 
   <main>
-    <<?php
+    <?php
 $usersQuery = $conn->query('SELECT * FROM klient');
 echo "$usersQuery";
       ?>
