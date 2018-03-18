@@ -50,7 +50,7 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
 
   <main>
     <<?php
-$usersQuery = $db->query('SELECT * FROM users');
+$usersQuery = $conn->query('SELECT * FROM klient');
 echo "$usersQuery";
       ?>
 
