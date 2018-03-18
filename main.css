@@ -1,0 +1,52 @@
+body
+{
+
+   font-family: 'Open Sans', sans-serif;
+   /* Background pattern from Subtle Patterns */
+   background-image: url("img/mochaGrunge.png");
+}
+
+h1.logo
+{
+  font-size: 44px;
+  font-weight: 700;
+  color: #ddd;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#topnav
+{
+//  background-color: #1c74b2;
+background-color:  	#C3B091;
+  text-align: center;
+}
+
+.topmenu
+{
+  list-style-type: none;
+  margin:0;
+  padding:10px;
+  font-size: 18px;
+  min-height: 38px;
+  line-height: 200%;
+}
+.topmenu >li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right:1px dashed #0a2b42;
+}
+.topmenu >li:last-child{
+  border-right:none;
+}
+.topmenu a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.topmenu a:hover
+{
+  	color: #0a2b42;
+}
