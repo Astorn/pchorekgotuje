@@ -51,7 +51,8 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
   <main>
     <?php
 $usersQuery = $conn->query('SELECT * FROM klient');
-echo "$usersQuery";
+echo '$usersQuery';
+echo 'nic';
       ?>
 
   </main>
